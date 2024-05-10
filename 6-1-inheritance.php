@@ -61,7 +61,15 @@ class CetakInfoProduk{
 $produk1 = new Produk("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100, 0,'Komik');
 $produk2 = new Produk("Uncharted", "Neil Druckmann", "Sony Computer", 25048, 0, 93 ,"Game");
 
-echo $produk1->getInfoLengkap();
+// echo $produk1->getInfoLengkap();
+// echo $produk2->getInfoLengkap();
+
+/* 
+
+Kesimpulan
+Tanpa menggunakan inheritance kita wajib menambah parameter baru dari 
+
+*/
 
 
 
