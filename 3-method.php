@@ -26,7 +26,7 @@ class Method {
 }
 
 $method = new Method();
-var_dump($method->method());
-echo $method->method();
 $methodGetLabel = new Method();
+
+echo $method->method();
 echo $methodGetLabel->getLabel();
